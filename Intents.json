@@ -1,0 +1,40 @@
+{
+	"intents": [
+		{
+			"tag": "Greeting",
+			"patterns": [ "Hi", "Hello", "Hey", "What is up", "Yo" ],
+			"responses": [ "Hello", "Hey There!" ]
+		},
+		{
+			"tag": "Show_TODOS",
+			"patterns": [ "Show todos", "what are my todos", "show me my todos", "what do I need to do" ],
+			"responses": [ "These are your To-Dos:", "This is what you need to do:" ]
+		},
+		{
+			"tag": "Add_TODO",
+			"patterns": [ "Add a task", "Add to do", "Make a task", "Make a todo", "Create a todo" ],
+			"responses": [ "What task would you like to add", "What would you like to add" ]
+		},
+		{
+			"tag": "Weather",
+			"patterns": [ "What is the weather", "Show me the weather", "weather", "what's the weather like", "how is the weather" ],
+			"responses": [ "Here is the weather:\n", "Currently the weather is:\n" ]
+		},
+		{
+			"tag": "Web",
+			"patterns": ["Search", "Open", "Look Up", "Show me", "Web"],
+			"responses": ["Opening Web Page..."]
+		},
+
+		{
+			"tag": "Exit",
+			"patterns": [ "Exit", "Quit", "Good bye", "Bye", "Goodbye", "See you later" ],
+			"responses": [ "Bye", "See you soon!" ]
+		},
+		{
+			"tag": "NotSure",
+			"patterns": ["fjdfkdfjfh", "hjfhsdkjh", "whieh!", "idjj", "whwwhwh", "jdkdjdkhdhhdk", "dhdhdhdh", "blahblahblah"],
+			"responses": [ "I'm not sure I understand" ]
+		}
+	]
+}
